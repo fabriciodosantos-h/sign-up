@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    /*GRADIENTE*/
+    --cor-01: #4a6093;
+    --cor-02: #4B4A94;
+    --cor-03: #4A7794;
+
+    /*LOGIN*/
+    --cor-I: #1b1a2e;
+    --cor-II: #454461;
+    --cor-III: rgba(0, 0, 255, 0.700);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    /*background-image: linear-gradient(180deg, #4a6093, #4B4A94,#4A7794);*/
+}
+
+header > h1 {
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    max-width: 700px;
+    min-height: 200px;
+    margin: auto;
+    font-size: 1.2em;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.300);
+}
+
+#formulario {
+   padding: 20px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#buttons > input {
+    width: 100%;
+    max-width: 700px;
+}
+
+input {
+    max-width: 120px;
+    margin: 0px 0px 15px 0px;
+    padding: 8px;
+    transition: all 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid rgba(0, 0, 255, 0.700);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.300);
+}
+
+input[type=text] {
+    max-width: 300px;
+}
+
+input[type=email] {
+    max-width: 150px;
+}
+
+input[type=password] {
+    max-width: 75px;
+}
+
+input[type=date] {
+    text-align: center;
+}
+
+input[type=radio] {
+    margin-top: 20px;
+}
+
+input[type=submit], input[type=reset] {
+    margin: 5px 0px 2px 0px;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 8px;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #81a7ff;
+    transform: scale(95%);
+}
+
+input[type=submit]:hover {
+    transform-origin: right;
+}
+
+input[type=reset]:hover {
+    transform-origin: left;
+}
+
+.default {
+    font-size: 12px;
+    padding: 0px;
+    margin: -20px 0px 7.5px 0px;
+}
