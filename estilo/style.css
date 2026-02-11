@@ -55,10 +55,13 @@ section {
 fieldset {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 20px;
+    gap: 15px;
     border: 1px solid black;
     border-radius: 4px;
+}
+
+fieldset > legend {
+    margin-bottom: 15px;
 }
 
 #buttons > input {
