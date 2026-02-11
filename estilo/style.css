@@ -101,19 +101,19 @@ input[type=radio] {
     margin-top: 20px;
 }
 
-input[type=submit], input[type=reset] {
+input[type=button], input[type=reset] {
     margin: 5px 0px 2px 0px;
     font-size: 1em;
     cursor: pointer;
     padding: 8px;
 }
 
-input[type=submit]:hover, input[type=reset]:hover {
+input[type=button]:hover, input[type=reset]:hover {
     background-color: #81a7ff;
     transform: scale(95%);
 }
 
-input[type=submit]:hover {
+input[type=button]:hover {
     transform-origin: right;
 }
 
