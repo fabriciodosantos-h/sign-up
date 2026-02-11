@@ -33,15 +33,14 @@ header > h1 {
 }
 
 main {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
     padding: 20px;
+    overflow-x: hidden;
 }
 
 section {
-    width: 700px;
+    max-width: 800px;
+    margin: auto;
     font-size: 1.2em;
     border: 0.5 groove rgba(0, 0, 0, 0.100);
     border-radius: 10px;
