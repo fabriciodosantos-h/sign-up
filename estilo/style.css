@@ -42,7 +42,7 @@ section {
     max-width: 800px;
     margin: auto;
     font-size: 1.2em;
-    border: 1px groove rgba(0, 0, 0, 0.140);
+    border: 0.5 groove rgba(0, 0, 0, 0.100);
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.300);
 }
