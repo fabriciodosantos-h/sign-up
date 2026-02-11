@@ -33,12 +33,13 @@ header > h1 {
 }
 
 main {
-    padding: 20px;
-    overflow-x: hidden;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    
+    min-height: 100vh;
+    padding: 20px;
 }
 
 section {
