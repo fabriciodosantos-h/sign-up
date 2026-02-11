@@ -72,7 +72,8 @@ fieldset > legend {
 }
 
 input {
-    max-width: 150px;
+    width: 100%;
+    max-width: 200px;
     margin: 0px 0px 15px 0px;
     padding: 10px;
     transition: all 0.2s;
@@ -84,16 +85,8 @@ input:focus {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.300);
 }
 
-input[type=text] {
-    max-width: 400px;
-}
-
-input[type=email] {
-    max-width: 200px;
-}
-
 input[type=password] {
-    max-width: 75px;
+    max-width: 100px;
 }
 
 input[type=date] {
