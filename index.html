@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastre-se</title>
-    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/style.css" media="all">
+    <link rel="stylesheet" href="estilo/media-queries.css" media="screen">
+    <link rel="stylesheet" href="estilo/imp.css" media="print">
 </head>
 <body>
     <header>
@@ -18,21 +20,21 @@
                         <legend>Dados pessoais</legend>
 
                         <label for="Inome">Nome:</label>
-                        <input type="text" name="nome" id="Inome" required autocomplete="name"
-                        maxlength="35" placeholder="Ex: João da Silva Santos" size="35">
+                        <input type="text" name="nome" id="Inome" autocomplete="name"
+                        maxlength="35" placeholder="Ex: João da Silva Santos" size="35" required>
                         <!--    NOME    -->
                         
                         <label for="Iemail">Email:</label>
-                        <input type="email" name="email" id="Iemail" required autocomplete="email" placeholder="Ex: xxxxx@gmail.com">
+                        <input type="email" name="email" id="Iemail" autocomplete="email" placeholder="Ex: xxxxx@gmail.com" required>
                         <!--    EMAIL   -->
 
                         <label for="Isenha">Senha:</label>
-                        <input type="password" name="senha" id="Isenha" required min="8" max="16" autocomplete="current-password">
+                        <input type="password" name="senha" id="Isenha" min="8" max="16" autocomplete="current-password" required>
                         <p class="default">No mínimo de 8 a 16 caracteres.</p>
                         <!--    SENHA    -->
         
                         <label for="age">Data de Nascimento:</label>
-                        <input type="date" name="idade" id="age" required max="2026">
+                        <input type="date" name="idade" id="age" max="2026" required>
                         <!--    DATA    -->
                     </fieldset>
                     <div id="buttons">
